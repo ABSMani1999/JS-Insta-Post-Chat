@@ -34,6 +34,7 @@
 	justify-content:space-between;
 	position:sticky;
 	top:0;
+	left:0;
 	background-color:#fff;
 }
 
@@ -44,6 +45,27 @@
 	background-color:black;
 	color:#fff;
 	padding:10px 0px;
+	position:relative;
+}
+
+#story{
+	position: absolute;
+    top: 0;
+    left: 30%;
+    width: 540px;
+    height: 100%;
+    background-color: #100f0fe0;
+	visibility:hidden;
+}
+
+.story-close{
+	cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 66%;
+    color: #fff;
+	visibility:hidden;
 }
 
 .front-top-profile>img{
@@ -52,6 +74,7 @@
     margin: 0 30px;
     border-radius: 50%;
     border: 4px solid #d1a3ce;
+	cursor:pointer;
 }
 
 .front-top-profile>p{
@@ -202,3 +225,6 @@
 	background-color: #888484d1;
 	cursor:pointer;	
 }
+
+/* Profile */
+
